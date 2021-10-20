@@ -1,0 +1,59 @@
+Cascading Style Sheets(CSS)
+	HTML-tags
+              1. Scope of html tags are limited.
+               2. can't increase the size of font more than 11
+             3.background colors are not applicable 
+        to all  tags.
+          4.margins setting is not availbale in html
+          5.text decoration properties
+
+CSS that provides lots of properties to tags ,according
+to requirement we can avail that properties.
+....CSS Properties
+	background-color:value
+                  background-image:url('path')
+                  text-decoration:underline/overline/linethrough
+CSS Types:
+1.External Style Sheet
+....CSS properties are defined in a seperate file
+    and save it as .css
+... create a seperate html file and Import .css file into html file using 
+   <link href="cssfilename " rel="stylesheet"> under <head>
+        (1html file+1 css file)
+....How to define CSS properties
+....selector/tagname{cssproperties1:value;
+             csspropertie2:value;...}
+...To verify the ouput of CSS properties, open the 
+       html file in the browser
+CSS properties:
+1.background-color:colorvalue
+2.text-decoration:underline/overline/linethrough
+3.color:colorvalue(text color)
+Assignment
+1.Is there any possibility to import same CSS file to 
+ more than one html file?
+2.Is there any possibility to import more than one css file into single
+html file?
+
+2.Internal Style Sheet/embedded style sheet
+1.CSS properties are defined in a html file itself under <style> tag
+2.<style> tag is embedded under <head> tag.
+<head>
+	<style>
+	selector{csspropertie:value;.....}
+	</style>
+</head>
+
+	
+CSS properties -Anchor tag<a>
+ How to apply colors to the link(Befor activation and after activation)
+Font
+Background colors and images
+Margins
+
+
+
+3.Inline Style Sheet
+
+
+
